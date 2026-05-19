@@ -1,81 +1,44 @@
 # Limpeza de Dados CSV
 
-## 📋 Descrição
+## Descrição
 
-Este projeto implementa um script Python que realiza a limpeza e tratamento de dados em arquivos CSV. O script lê um arquivo CSV contendo dados fictícios de vendas, remove linhas duplicadas, trata valores vazios e exporta um arquivo CSV limpo.
+Projeto Python para limpeza de dados de vendas em CSV. O script `limpeza.py` lê o arquivo `vendas.csv`, remove duplicatas, trata valores vazios e exporta `vendas_limpo.csv`.
 
-### Funcionalidades:
-- ✅ Leitura de arquivo CSV
-- ✅ Remoção de linhas duplicadas
-- ✅ Tratamento de valores vazios (preenchimento inteligente)
-- ✅ Remoção de linhas completamente vazias
-- ✅ Exportação de arquivo limpo com timestamp
-- ✅ Relatório detalhado do processo
+## Tecnologias usadas
 
-## 🛠️ Tecnologias Utilizadas
+- Python 3
+- pandas
 
-- **Python 3.7+**
-- **Pandas** - Manipulação e análise de dados
-- **CSV** - Formato de arquivo
+## Como rodar
 
-## 📦 Requisitos
+1. Instale dependências:
 
-```bash
-pip install pandas
+```powershell
+python -m pip install -r requirements.txt
 ```
 
-## 🚀 Como Executar
+2. Execute o script:
 
-### 1. Instalar dependências
-```bash
-pip install -r requirements.txt
+```powershell
+python limpeza.py
 ```
 
-### 2. Executar o script
-```bash
-python main.py
-```
+3. O arquivo limpo será gerado como:
 
-### 3. Resultado
-O script gerará um arquivo `vendas_limpas_YYYYMMDD_HHMMSS.csv` contendo os dados limpos.
+- `vendas_limpo.csv`
 
-## 📄 Estrutura dos Arquivos
+## Arquivos do projeto
 
-- `main.py` - Script principal de limpeza de dados
-- `vendas_exemplo.csv` - Arquivo CSV de exemplo com dados de vendas (contendo dados sujos para teste)
-- `README.md` - Este arquivo
+- `limpeza.py` - Script de limpeza de dados
+- `vendas.csv` - Arquivo de exemplo com dados fictícios
 - `requirements.txt` - Dependências do projeto
+- `README.md` - Documentação do projeto
+- `.gitignore` - Arquivos ignorados pelo Git
 
-## 📊 Exemplo de Saída
+## Comportamento
 
-```
-📖 Lendo arquivo: vendas_exemplo.csv
-📊 Total de linhas originais: 13
-
-🔍 Valores vazios por coluna (antes da limpeza):
-id                0
-data              0
-produto           1
-quantidade        2
-preco_unitario    0
-categoria         1
-vendedor          2
-
-✅ Linhas completamente vazias removidas
-✅ Valores vazios tratados
-✅ 1 linhas duplicadas removidas
-
-📊 Total de linhas finais: 11
-✨ Arquivo limpo salvo em: vendas_limpas_20240121_143025.csv
-```
-
-## 💡 Notas
-
-- Valores vazios em colunas de texto são preenchidos com "N/A"
-- Valores vazios em colunas numéricas são preenchidos com 0
-- Linhas completamente vazias são removidas
-- O arquivo de saída inclui um timestamp para evitar sobrescrita
-
-## 📝 Licença
-
-Este projeto é de código aberto e pode ser utilizado livremente para fins educacionais.
+- Remove linhas duplicadas
+- Remove linhas completamente vazias
+- Preenche valores vazios em colunas de texto com `N/A`
+- Preenche valores vazios em colunas numéricas com `0`
+- Exporta `vendas_limpo.csv`

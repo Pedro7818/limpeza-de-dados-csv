@@ -1,0 +1,16 @@
+id,data,produto,quantidade,preco_unitario,categoria,vendedor
+1,2024-05-01,Notebook Gamer,1,5200.00,Eletrônicos,João Silva
+2,2024-05-01,Mouse Sem Fio,2,149.90,Acessórios,Maria Santos
+3,2024-05-02,Teclado Mecânico,1,379.90,Acessórios,Pedro Costa
+4,2024-05-03,Monitor 24",1,1299.00,Eletrônicos,Ana Lima
+5,2024-05-03,Headset RGB,1,289.00,Eletrônicos,Carlos Almeida
+2,2024-05-01,Mouse Sem Fio,2,149.90,Acessórios,Maria Santos
+6,2024-05-04,SSD 512GB,1,,Armazenamento,Mariana F.
+7,2024-05-05,Webcam HD,1,249.90,Eletrônicos,
+8,2024-05-06,Mousepad Gamer,2,49.90,Acessórios,Rafael S.
+9,2024-05-07,,1,89.90,Acessórios,Luciana G.
+10,2024-05-08,Adaptador USB,1,39.90,Periféricos,Bruno M.
+11,2024-05-09,HD Externo 1TB,1,399.90,Armazenamento,Carla P.
+,2024-05-10,Suporte para Notebook,1,79.90,Periféricos,Julia F.
+12,2024-05-11,Hub USB,1,129.90,Periféricos,Pedro Costa
+13,2024-05-11,Mousepad Gamer,2,49.90,Acessórios,Rafael S.
