@@ -1,0 +1,17 @@
+id,data,produto,quantidade,preco_unitario,categoria,vendedor
+1,2024-01-15,Notebook Dell,1,3500.00,Eletrônicos,João Silva
+2,2024-01-15,Mouse Logitech,3,85.50,Acessórios,Maria Santos
+3,2024-01-16,Teclado Mecânico,2,450.00,Acessórios,João Silva
+1,2024-01-15,Notebook Dell,1,3500.00,Eletrônicos,João Silva
+4,2024-01-16,,1,1200.00,Monitores,Pedro Costa
+5,2024-01-17,Monitor LG 27",1,1200.00,Monitores,
+6,2024-01-17,Webcam HD,,299.90,Acessórios,Ana Martins
+7,2024-01-18,Headphone Bluetooth,1,350.00,,Carlos Oliveira
+,,,,,,
+8,2024-01-18,SSD 1TB,2,450.00,Armazenamento,Maria Santos
+2,2024-01-15,Mouse Logitech,3,85.50,Acessórios,Maria Santos
+9,2024-01-19,Monitor LG 27",1,1200.00,Monitores,João Silva
+10,2024-01-19,Teclado USB,5,120.00,Acessórios,Pedro Costa
+11,2024-01-20,Placa de Vídeo RTX,1,3200.00,Eletrônicos,
+12,2024-01-20,RAM DDR4 16GB,,450.00,Componentes,Carlos Oliveira
+13,2024-01-21,Mousepad,10,35.00,Acessórios,Maria Santos
